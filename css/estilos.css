@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #f4f5f7;
+    font-family: 'lato';
+    font-size: 16px;
+}
+.contenedor{
+    width: 90%;
+    max-width: 1000px;
+    overflow: hidden;
+    margin: auto;
+}
+
+
+
+
+header .menu{
+    margin: 30px; 
+    display:flex;
+    justify-content: flex-end;
+    flex-wrap: wrap; 
+}
+header .menu a:hover{
+    text-decoration: underline;
+}
+header .menu a{
+    font-size:20px;
+    font-family: 'lato';
+    font-weight: 600; 
+    display: inline-block; 
+    padding:10px 0;
+    margin:0 15px;
+    color:rgb(0, 0, 0);
+    text-decoration: navy;
+ }
+
+
+header .contenido-logo{
+    position: absolute;
+    top: 10%;
+    left: 5%;
+    transform: translate(-40%, -40%);
+}
+
+
+
+
+
+
+
+
+
+
